@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 700
     height: 1299
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 661
     height: 365
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs/StartLevel
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -409,16 +409,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs/StartLevel
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\harry\OneDrive\Desktop\Kuzmenko-ID-Main\UnityTestProject\NetologyTest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86640000
-    m_LastClickedID: 25734
-    m_ExpandedIDs: 000000001e64000000ca9a3b
+    scrollPos: {x: 0, y: 32}
+    m_SelectedIDs: 12730000
+    m_LastClickedID: 29458
+    m_ExpandedIDs: 000000003c64000098640000a2640000d4a20000d6a2000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +446,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c0440000
     m_LastClickedID: 17600
-    m_ExpandedIDs: 000000001e640000
+    m_ExpandedIDs: 000000003c640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,22 +473,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000f6610000fa7e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FixedChain
+      m_OriginalName: FixedChain
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 29574
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
@@ -586,23 +586,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2620000
-      m_LastClickedID: 25314
-      m_ExpandedIDs: 94edffff0efbffff5a6300005c630000686300006e6300007a630000
+      m_SelectedIDs: 76630000
+      m_LastClickedID: 25462
+      m_ExpandedIDs: 920dffff3017ffff2852ffff2a52ffff2c52ffff2e52ffff3052ffff9a72fffffc72ffff5e73ffffc073ffff2274fffff68bffffa093ffff0efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: FrontRight
-        m_OriginalName: FrontRight
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -7346
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -955,9 +955,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.015559673, y: 1.2544408, z: 0.08230978}
+    m_Target: {x: -2.2820187, y: 5.8027725, z: 0.71697605}
     speed: 2
-    m_Value: {x: 0.015559686, y: 1.2544408, z: 0.08230979}
+    m_Value: {x: -2.2820187, y: 5.8027725, z: 0.71697605}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1003,20 +1003,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.026554001, y: -0.7545237, z: 0.030565124, w: 0.6549908}
+    m_Target: {x: -0.30080718, y: 0.05002811, z: -0.015849441, w: -0.9521715}
     speed: 2
-    m_Value: {x: 0.026554555, y: -0.75453943, z: 0.030565761, w: 0.65500444}
+    m_Value: {x: -0.3008268, y: 0.050031375, z: -0.015850475, w: -0.9522336}
   m_Size:
-    m_Target: 2.525324
+    m_Target: 6.6208262
     speed: 2
-    m_Value: 2.525324
+    m_Value: 6.6208262
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.48075998
-    m_SpeedNormalized: 0.24
+    m_Speed: 0.84058
+    m_SpeedNormalized: 0.42
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1027,7 +1027,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.26010057, y: -0.71066254, z: 0.32635418, w: 0.56638455}
+  m_LastSceneViewRotation: {x: -0.028491817, y: 0.010502521, z: -0.00026190354, w: -0.99950725}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
